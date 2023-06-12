@@ -49,7 +49,7 @@ public class Registration extends  JFrame{
                 } else if (perempuanRadioButton.isSelected()) {
                     JK = "Perempuan";
                 } else {
-                    JK = "Tidak diketahui";
+                    JK = "Tidak diketahui!";
                 }
 
                 //menampilkan msgbox
