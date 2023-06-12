@@ -32,6 +32,8 @@ public class Registration extends  JFrame{
                 TxtTelp.setText("");
                 TxtAreaAlamat.setText("");
                 CBProdi.setSelectedIndex(0);
+//                lakiLakiRadioButton.setSelected(false);
+//                perempuanRadioButton.setSelected(false);
                 JK.clearSelection();
             }
         });
@@ -49,7 +51,7 @@ public class Registration extends  JFrame{
                 } else if (perempuanRadioButton.isSelected()) {
                     JK = "Perempuan";
                 } else {
-                    JK = "Tidak diketahui!";
+                    JK = "Tidak diketahui";
                 }
 
                 //menampilkan msgbox
