@@ -32,5 +32,7 @@ public class MultiException {
         }
 
         System.out.println("Proses sudah selesai yooo :)");
+
     }
+
 }
